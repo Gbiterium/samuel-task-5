@@ -8,11 +8,16 @@
           <p><i class="glyphicon glyphicon-tasks"></i> Web Developer, Tech geek</p>
           <p><i class="glyphicon glyphicon-envelope"></i> samueladetona56@gmail.com</p>
           <p><i class="glyphicon glyphicon-heart"></i> Knowing more about programming</p>
-          <p>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          </p>
+          <div class="btn-group">
+          <button class="btn btn-default btn-lg" id="button" style="background:white">Social Media</button>
+          <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="background:white; color: black">
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+          </div>
     </div>
     </div>
     <div class="profile-inner-content">
@@ -43,9 +48,8 @@
 
 <script>
 export default {
- 
-  }
-
+  
+}
 </script>
 
 <style scoped>
@@ -92,8 +96,7 @@ table tr th, tr td{
 table tr th, tr td:last-child{
   border-right: none;
 }
-a{
-  padding: 10px;
-  color:white;
+i{
+  font-size: 20px;
 }
 </style>
